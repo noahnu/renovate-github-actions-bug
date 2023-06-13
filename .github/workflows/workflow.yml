@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@96f53100ba2a5449eb71d2e6604bbcd94b9449b5
-      - uses: hashicorp/setup-tflint@eaeaad19ca755b477f6a5b99c776612b73ee6b3f
+      - uses: hashicorp/setup-tflint@db27e99508f896b3c2a26580bbe3ef7df97d48c7
