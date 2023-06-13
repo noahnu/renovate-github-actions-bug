@@ -1,0 +1,17 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "enabledManagers": [
+        "github-actions"
+    ],
+    "stabilityDays": 21,
+    "prCreation": "immediate",
+    "packageRules": [
+        {
+            "matchManagers": ["github-actions"],
+            "groupName": "GitHub Actions",
+            "matchPackagePrefixes": [
+                "hashicorp",
+            ]
+        }
+    ]
+}
